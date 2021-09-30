@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title data-lang-id="Title">Сrypto2Cloud</title>
+	<link rel="icon" type="image/png" href="https://crypto2cloud.com/favicon.png"/>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<section class="first-screen">
+	<header class="header content">
+		<img class="menu-mob" src="img/menu-mob.png" alt="menu"/>
+		<img class="logo" src="img/logo.png" alt="logo"/>
+		<nav class="nav">
+			<div class="nav__item" onClick="scrollToId('Home')" data-lang-id="Home"></div>
+			<div class="nav__item" onClick="scrollToId('Howitworks')" data-lang-id="Howitworks"></div>
+			<div class="nav__item" onClick="scrollToId('Whyus')" data-lang-id="Whyus"></div>
+			<div class="nav__item" onClick="scrollToId('Monetization')" data-lang-id="Monetization"></div>
+			<div class="nav__item" onClick="scrollToId('Plans')" data-lang-id="Plans"></div>
+			<div class="nav__item" onClick="scrollToId('Addons')" data-lang-id="Addons"></div>
+		</nav>
+		<div class="header__more">
+			<div class="soc">
+				<a href="skype://sales@crypto2cloud.com" target="_blank" rel="noreferrer nofollow">
+					<img class="soc__item" src="img/soc/skype.svg" alt="skype">
+				</a>
+				<a href="https://wa.me/37281714442" target="_blank" rel="noreferrer nofollow">
+					<img class="soc__item" src="img/soc/whatsapp.svg" alt="whatsapp">
+				</a>
+				<a href="https://t.me/crypto2cloud" target="_blank" rel="noreferrer nofollow">
+					<img class="soc__item" src="img/soc/telegram.svg" alt="telegram">
+				</a>
+			</div>
+			<div class="main-action" onClick="scrollToId('contact')">
+				<span data-lang-id="Inquirenow"></span> <img class="onlyDesktop" src="img/icons/arr-right.png" alt="">
+			</div>
+			<div class="lang">
+				<img class="lang__flag" src="img/lang/en.svg" alt="en">
+				<div class="lang__text">En</div>
+				<img class="lang__dec" src="img/icons/more-less.png" alt="arr">
+			</div>
+		</div>
+	</header>
+	<div class="main" id="Home">
+		<div class="main__left">
+			<div class="main__title" data-lang-id="START"></div>
+			<div class="main__title-sub1" data-lang-id="YOUROWN"></div>
+			<div class="main__title-sub2" data-lang-id="CRYPTOEXCHANGE"></div>
+			<div class="main__desc" data-lang-id="Createyourowncryptocurrency"></div>
+		</div>
+		<div class="main__right"></div>
+	</div>
+	<div class="content">
+		<div class="accent">
+			<div class="accent__start start" onClick="scrollToId('contact')">
+				<div class="start__wrap-wrap">
+					<div class="start__wrap">
+						<img class="start__img" src="img/icons/next.svg" alt="arr">
+					</div>
+				</div>
+				<div class="accent__text" data-lang-id="STARTNOW"></div>
+			</div>
+			<a class="demo" href="https://crypto2cloud.herokuapp.com/" target="_blank">
+				<div class="demo__text" data-lang-id="ViewDemo"></div>
+			</a>
+		</div>
+		<div class="title title_end m0" id="Howitworks">
+			<div class="title__desc" data-lang-id="TheBankorganizes"></div>
+			<img class="title__line" src="img/icons/line.png" alt="line">
+			<div class="title__content">
+				<div class="title__text" data-lang-id="HOW"></div>
+				<div class="title__sub" data-lang-id="ITWORKS"></div>
+			</div>
+		</div>
+		<div class="quote" data-lang-id="FundsareheldSegregated"></div>
+	</div>
+
+	<div class="step-wrap">
+		<div class="content">
+			<div class="step">
+				<div class="step__item">
+					<div class="step__decorate bColor1"></div>
+					<div class="step__title color1" data-lang-id="Chooseyourplan"></div>
+					<div class="step__desc" data-lang-id="Serverlocatedin"></div>
+					<div class="step__num">– 01 –</div>
+				</div>
+				<div class="step__item">
+					<div class="step__decorate bColor2"></div>
+					<div class="step__title color2" data-lang-id="Makeapayment">Make a payment</div>
+					<div class="step__desc" data-lang-id="Becometradingexpert"></div>
+					<div class="step__num">– 02 –</div>
+				</div>
+				<div class="step__item">
+					<div class="step__decorate bColor3"></div>
+					<div class="step__title color3" data-lang-id="Getyourexchange"></div>
+					<div class="step__desc" data-lang-id="Ourmarketresearch"></div>
+					<div class="step__num">– 03 –</div>
+				</div>
+			</div>
+
+			<div class="title title_end" id="Monetization">
+				<div class="title__desc" data-lang-id="OurmarketresearchBR"></div>
+				<img class="title__line" src="img/icons/line.png" alt="line">
+				<div class="title__content">
+					<div class="title__text" data-lang-id="WAYSTOMONETIZE"></div>
+					<div class="title__sub" data-lang-id="YOUREXCHANGE"></div>
+				</div>
+			</div>
+
+			<div class="monetize">
+				<img class="monetize__img" src="img/money2.png" alt="money"/>
+				<div class="monetize__item" onClick="toggleBlock('block1');" data-id="block1">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize1Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize1Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block2');" data-id="block2">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize2Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize2Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block3');" data-id="block3">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize3Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize3Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block4');" data-id="block4">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize4Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize4Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block5');" data-id="block5">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize5Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize5Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block6');" data-id="block6">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize6Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize6Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block7');" data-id="block7">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize7Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize7Desc"></div>
+					</div>
+				</div>
+				<div class="monetize__item" onClick="toggleBlock('block8');" data-id="block8">
+					<div class="monetize__arr">
+						<img src="img/icons/arr-up-down.png" alt="arr">
+					</div>
+					<div>
+						<div class="monetize__title" data-lang-id="monetize8Title"></div>
+						<div class="monetize__desc" data-lang-id="monetize8Desc"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-second" id="Plans">
+	<div class="purchase content">
+		<div class="title">
+			<div class="title__desc" data-lang-id="Weofferacc"></div>
+			<img class="title__line" src="img/icons/line.png" alt="line">
+			<div class="title__content">
+				<div class="title__text" data-lang-id="PURCHASE"></div>
+				<div class="title__sub" data-lang-id="OPTIONS"></div>
+			</div>
+		</div>
+
+		<div class="plans">
+			<div class="plan-wrap">
+				<div class="plan">
+					<div class="plan__label">
+						<div><b data-lang-id="WHITE"></b> <span data-lang-id="LABEL"></span></div>
+						<div class="question-elem">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+					</div>
+					<div class="plan__content">
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="spreadfrom"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Availablebasecurrencies"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="ZeroCommissions"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Fullsupport"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Freedemo"></div>
+						</div>
+					</div>
+					<div class="plan__footer price">
+						<div class="plan__footer-group">
+							<div class="price__text" data-lang-id="Setupfee"></div>
+							<div class="price__sum">$</div>
+						</div>
+						<div class="price__action" data-lang-id="STARTNOW" onClick="scrollToId('contact')"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="plan-wrap">
+				<div class="plan plan_best">
+					<div class="plan__label">
+						<img class="plan__best" src="img/best.png" alt="best">
+						<div><b data-lang-id="FULL"></b> <span data-lang-id="SOURCECODE"></span></div>
+						<div class="question-elem">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+					</div>
+					<div class="plan__content">
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Hostedbyus"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Customizablefront"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="FullpublicprivateAPI"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Fulladministrationpanel"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Oneclickintegration"></div>
+						</div>
+					</div>
+					<div class="plan__footer price">
+						<div class="plan__footer-group">
+							<div class="price__text" data-lang-id="Setupfee"></div>
+							<div class="price__sum">$</div>
+						</div>
+						<div class="price__action" data-lang-id="STARTNOW" onClick="scrollToId('contact')"></div>
+					</div>
+				</div>
+			</div>
+			<div class="plan-wrap">
+				<div class="plan">
+					<div class="plan__label">
+						<div><b data-lang-id="SOURCE"></b> <span data-lang-id="USTOMDESIGN"></span></div>
+						<div class="question-elem">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+					</div>
+					<div class="plan__content">
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Spreadsfrom01"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Availablebasecurrencies"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Commissions3d"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Fullsupport"></div>
+						</div>
+						<div class="plan__ok">
+							<img class="plan__ok-img" src="img/icons/ok-blue.png" alt="ok">
+							<div class="plan__ok-text" data-lang-id="Freedepositswithdrawals"></div>
+						</div>
+					</div>
+					<div class="plan__footer price">
+						<div class="plan__footer-group">
+							<div class="price__text" data-lang-id="Setupfee"></div>
+							<div class="price__sum">$</div>
+						</div>
+						<div class="price__action" data-lang-id="STARTNOW" onClick="scrollToId('contact')"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-third">
+	<div class="purchase content">
+		<div class="title title_end">
+			<div class="title__desc" data-lang-id="Watchthisinteractivewebinar"></div>
+			<img class="title__line" src="img/icons/line.png" alt="line">
+			<div class="title__content">
+				<div class="title__text" data-lang-id="READYMADE"></div>
+				<div class="title__sub" data-lang-id="TURNKEYEXCHANGES"></div>
+			</div>
+		</div>
+
+		<div class="domains">
+			<div class="domain">
+				<div class="domain__img">
+					<img src="img/domain3.png" alt="do">
+				</div>
+				<div class="domain__name">Azbit.com</div>
+				<div class="domain__action">
+					<div class="domain__price">Up to request</div>
+					<div class="domain__btn" data-lang-id="BUYNOW" onClick="scrollToId('contact')"></div>
+				</div>
+			</div>
+			<div class="domain">
+				<div class="domain__img">
+					<img src="img/domain3.png" alt="do">
+				</div>
+				<div class="domain__name">SOON</div>
+				<div class="domain__action">
+					<div class="domain__price">Soon</div>
+					<div class="domain__btn" data-lang-id="BUYNOW" onClick="scrollToId('contact')"></div>
+				</div>
+			</div>
+			<div class="domain">
+				<div class="domain__img">
+					<img src="img/domain3.png" alt="do">
+				</div>
+				<div class="domain__name">SOON</div>
+				<div class="domain__action">
+					<div class="domain__price">Soon</div>
+					<div class="domain__btn" data-lang-id="BUYNOW" onClick="scrollToId('contact')"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<section class="section-forth" id="Addons">
+	<div class="content">
+		<div class="title title_center">
+			<div class="title__desc" data-lang-id="Weareproud">
+			</div>
+			<img class="title__line" src="img/icons/line.png" alt="line">
+			<div class="title__content">
+				<div class="title__text" data-lang-id="MORE"></div>
+				<div class="title__sub" data-lang-id="PRODUCTS"></div>
+			</div>
+		</div>
+		<div class="contact-us">
+			<img class="contact-us__img" src="img/icons/phone.svg" alt="phone">
+			<div class="contact-us__text" data-lang-id="Contactusfor" onClick="scrollToId('contact')"></div>
+		</div>
+
+		<div class="products-more">
+			<div class="prod">
+				<img class="prod__img" src="img/products-more/products-more-1.svg" alt="prod">
+				<div class="prod__text" data-lang-id="Sportsbook"></div>
+			</div>
+			<div class="prod">
+				<img class="prod__img" src="img/products-more/products-more-2.svg" alt="prod">
+				<div class="prod__text" data-lang-id="Capitalizations"></div>
+			</div>
+			<div class="prod">
+				<img class="prod__img" src="img/products-more/products-more-3.svg" alt="prod">
+				<div class="prod__text" data-lang-id="Decentralizedcrypto"></div>
+			</div>
+			<div class="prod">
+				<img class="prod__img" src="img/products-more/products-more-4.svg" alt="prod">
+				<div class="prod__text" data-lang-id="Auctions"></div>
+			</div>
+			<div class="prod">
+				<img class="prod__img" src="img/products-more/products-more-5.png" alt="prod">
+				<div class="prod__text" data-lang-id="P2Pcryptomarketplace"></div>
+			</div>
+			<div class="prod">
+				<img class="prod__img" src="img/products-more/products-more-6.svg" alt="prod">
+				<div class="prod__text" data-lang-id="SmartContracts"></div>
+			</div>
+		</div>
+
+		<div class="unique">
+			<img src="img/team.png" class="unique__left" alt="team">
+			<div class="unique__right">
+				<div class="unique__title"><span data-lang-id="Doneedcreate"></span> <span class="unique__accent"
+																						   data-lang-id="somethingunique"></span>
+				</div>
+				<div class="unique__desc" data-lang-id="Noproblem"></div>
+				<div class="unique__sub" data-lang-id="Customratesfrom"></div>
+			</div>
+		</div>
+
+		<div class="title title_center">
+			<div class="title__desc" data-lang-id="Weareproudtosay"></div>
+			<img class="title__line" src="img/icons/line.png" alt="line">
+			<div class="title__content">
+				<div class="title__text" data-lang-id="ADDITIONAL"></div>
+				<div class="title__sub" data-lang-id="OPTIONS"></div>
+			</div>
+		</div>
+
+		<div class="options">
+			<div class="option-group">
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions1"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions2"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions3"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+			</div>
+			<div class="option-group">
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions4"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions5"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions6"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+			</div>
+			<div class="option-group">
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions7"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions8"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+				<div class="option">
+					<div class="option__left">
+						<div class="question-elem options__question">
+							<img src="img/icons/question.png" alt="?">
+						</div>
+						<span data-lang-id="additionalOptions9"></span>
+					</div>
+					<div class="option__right"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-fifth" id="Whyus">
+	<div class="whyUs-wrap">
+		<div class="content">
+			<div class="whyUs">
+				<div>
+					<div class="title">
+						<div class="title__desc" data-lang-id="ServerlocatedinBR"></div>
+						<img class="title__line" src="img/icons/line.png" alt="line">
+						<div class="title__content">
+							<div class="title__text" data-lang-id="WHY"></div>
+							<div class="title__sub" data-lang-id="US"></div>
+						</div>
+					</div>
+					<div class="whyUs__img"></div>
+					<div class="whyUs__desc">
+						<span data-lang-id="Weofferthree"></span>
+						<b class="whyUs__bold" data-lang-id="Standard"></b> <span data-lang-id="whichisintended"></span>
+						<b class="whyUs__bold" data-lang-id="Pro"></b>
+						<span data-lang-id="whichisforexperienced"></span>
+						<a class="link" href="#" target="_blank" rel="noreferrer nofollow"
+						   data-lang-id="lowspreads"></a>
+						<span data-lang-id="andzerocommissions"></span>
+					</div>
+				</div>
+				<div class="benefits-wrap">
+					<div class="benefits">
+						<div class="benefits__title">
+							<img class="benefits__img" src="img/benefit.png" alt="benefit">
+							<div class="benefits__bold" data-lang-id="Quick"></div>
+							<div data-lang-id="easysetup"></div>
+						</div>
+						<div class="benefits__desc" data-lang-id="Gettingstartedsupereasy"></div>
+						<div class="benefits__sub" data-lang-id="Yourreadymade"></div>
+					</div>
+					<div class="benefits benefits_sep">
+						<div class="benefits__title">
+							<img class="benefits__img" src="img/benefit2.png" alt="benefit">
+							<div class="benefits__bold" data-lang-id="Fully"></div>
+							<div data-lang-id="customizable"></div>
+						</div>
+						<div class="benefits__desc" data-lang-id="Weofferthe"></div>
+						<div class="benefits__sub" data-lang-id="Completelyfree"></div>
+					</div>
+					<div class="benefits">
+						<div class="benefits__title">
+							<img class="benefits__img" src="img/benefit3.png" alt="benefit">
+							<div class="benefits__bold" data-lang-id="Professional"></div>
+							<div data-lang-id="team"></div>
+						</div>
+						<div class="benefits__desc" data-lang-id="Becometrading"></div>
+						<div class="benefits__sub" data-lang-id="Upto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="contactUs">
+			<div>
+				<div class="title">
+					<div class="title__desc" data-lang-id="Meetourcompliance"></div>
+					<img class="title__line" src="img/icons/line.png" alt="line">
+					<div class="title__content">
+						<div class="title__text" data-lang-id="CONTACT"></div>
+						<div class="title__sub" data-lang-id="US"></div>
+					</div>
+				</div>
+				<div class="contact" id="contact">
+					<div class="contact__desc" data-lang-id="Learnhowinterpret"></div>
+					<div class="form">
+						<div class="input-group">
+							<input id="name" type="text" placeholder="Your name" data-lang-id="Yourname">
+						</div>
+						<div class="input-group-wrap">
+							<div id="phone-wrap" class="input-group input-group-twice">
+								<input id="phone" type="text" placeholder="Phone number" data-lang-id="Phonenumber">
+							</div>
+							<div id="tg-wrap" class="input-group input-group-twice">
+								<input id="tg" type="text" placeholder="Telegram ID" data-lang-id="TelegramID">
+							</div>
+						</div>
+						<div class="input-group-wrap">
+							<div id="whatsapp-wrap" class="input-group input-group-twice">
+								<input id="whatsapp" type="text" placeholder="Whatsapp ID" data-lang-id="WhatsappID">
+							</div>
+							<div id="skype-wrap" class="input-group input-group-twice">
+								<input id="skype" type="text" placeholder="Skype ID" data-lang-id="SkypeID">
+							</div>
+						</div>
+						<div class="input-group-wrap">
+							<div id="email-wrap" class="input-group input-group-twice">
+								<input id="email" type="text" placeholder="E-mail" data-lang-id="Email">
+							</div>
+							<div id="country-wrap" class="input-group input-group-twice">
+								<input id="country" type="text" placeholder="Referred by: " data-lang-id="Yourcountry">
+							</div>
+						</div>
+						<div class="form__action">
+							<div id="response" class="form__desc" data-lang-id="Thankyouforsubmitting"></div>
+							<div class="form__btn" data-lang-id="Send" onClick="sendMail()"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="our-contacts">
+				<div class="our-contacts__online" data-lang-id="Online"></div>
+				<div class="our-contacts__ava">
+					<img src="img/manager.png" alt="manager">
+				</div>
+				<div class="our-contacts__name" data-lang-id="managerContactName"></div>
+				<div class="our-contacts__contacts">
+					<div class="option">
+						<div class="option__left" data-lang-id="managerContactPhone"></div>
+						<div class="option__sep"></div>
+						<img class="option__right" src="img/cont/cont1.png" alt="cont"/>
+					</div>
+					<div class="option">
+						<div class="option__left" data-lang-id="managerContactTelegram"></div>
+						<div class="option__sep"></div>
+						<img class="option__right" src="img/cont/cont2.png" alt="cont"/>
+					</div>
+					<div class="option">
+						<div class="option__left" data-lang-id="managerContactSkype"></div>
+						<div class="option__sep"></div>
+						<img class="option__right" src="img/cont/cont3.png" alt="cont"/>
+					</div>
+					<div class="option">
+						<div class="option__left" data-lang-id="managerContactWhatsup"></div>
+						<div class="option__sep"></div>
+						<img class="option__right" src="img/cont/cont4.png" alt="cont"/>
+					</div>
+					<div class="option">
+						<div class="option__left" data-lang-id="managerContactViber"></div>
+						<div class="option__sep"></div>
+						<img class="option__right" src="img/cont/cont5.png" alt="cont"/>
+					</div>
+					<div class="option">
+						<div class="option__left" data-lang-id="managerContactMail"></div>
+						<div class="option__sep"></div>
+						<img class="option__right" src="img/cont/cont6.png" alt="cont"/>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="demo-block-wrap">
+
+			<div class="title title_end">
+				<div class="title__desc" data-lang-id="Inthiswebinar"></div>
+				<img class="title__line" src="img/icons/line.png" alt="line">
+				<div class="title__content">
+					<div class="title__text" data-lang-id="DEMO"></div>
+					<div class="title__sub" data-lang-id="Exchanges"></div>
+				</div>
+			</div>
+
+			<div class="demo-block">
+				<div class="domain">
+					<div class="domain__img">
+						<img src="img/demo1.png" alt="do">
+					</div>
+					<div class="domain__name" data-lang-id="EXCHANGE"></div>
+					<div class="domain__actions">
+						<div class="option">
+							<div class="option__left" data-lang-id="Login"></div>
+							<div class="option__sep"></div>
+							<div class="option__right"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4e3b3d2b3c0e3d273a2b602d2123">[email&#160;protected]</a></div>
+						</div>
+						<div class="option">
+							<div class="option__left" data-lang-id="Password"></div>
+							<div class="option__sep"></div>
+							<div class="option__right">demopassword</div>
+						</div>
+						<div class="option option_center">
+							<div class="form__btn" data-lang-id="Send" onClick="scrollToId('contact')"></div>
+						</div>
+					</div>
+				</div>
+				<div class="domain">
+					<div class="domain__img">
+						<img src="img/demo2.png" alt="do">
+					</div>
+					<div class="domain__name" data-lang-id="Dashboard"></div>
+					<div class="domain__actions">
+						<div class="option">
+							<div class="option__left" data-lang-id="Login">Login</div>
+							<div class="option__sep"></div>
+							<div class="option__right"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5c4c1d3e5d2c0c78bc6cac8">[email&#160;protected]</a></div>
+						</div>
+						<div class="option">
+							<div class="option__left" data-lang-id="Password">Password</div>
+							<div class="option__sep"></div>
+							<div class="option__right">demo123passw</div>
+						</div>
+						<div class="option option_center">
+							<div class="form__btn" data-lang-id="Send" onClick="scrollToId('contact')"></div>
+						</div>
+					</div>
+				</div>
+				<div class="domain">
+					<div class="domain__img">
+						<img src="img/demo3.png" alt="do">
+					</div>
+					<div class="domain__name" data-lang-id="AdminPanel"></div>
+					<div class="domain__actions">
+						<div class="option">
+							<div class="option__left" data-lang-id="Login"></div>
+							<div class="option__sep"></div>
+							<div class="option__right"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3f525e56537f5850115c5052">[email&#160;protected]</a></div>
+						</div>
+						<div class="option">
+							<div class="option__left" data-lang-id="Password"></div>
+							<div class="option__sep"></div>
+							<div class="option__right">tempppassword</div>
+						</div>
+						<div class="option option_center">
+							<div class="form__btn" data-lang-id="Send" onClick="scrollToId('contact')"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer-wrap">
+	<div class="content">
+		<div class="footer">
+			<img class="footer__logo" src="img/logo-footer.png" alt="footer">
+			<div class="footer__left">
+				<div class="footer__copy" data-lang-id="copyright"></div>
+				<div class="footer__groups">
+					<div class="footer__group">
+						<a class="link footer__item" onClick="scrollToId('Home')" data-lang-id="Home">HOME</a>
+						<a class="link footer__item" onClick="scrollToId('Howitworks')" data-lang-id="Howitworks">HOW IT
+							WORKS</a>
+						<a class="link footer__item" onClick="scrollToId('Whyus')" data-lang-id="Whyus">WHY US</a>
+						<a class="link footer__item" onClick="scrollToId('Monetization')" data-lang-id="Monetization">MONETIZATION</a>
+						<a class="link footer__item" onClick="scrollToId('Plans')" data-lang-id="Plans">PLANS</a>
+						<a class="link footer__item" onClick="scrollToId('Addons')" data-lang-id="Addons">ADD-ONS</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__center">
+				<div class="footer__text" data-lang-id="footerText"></div>
+				<div class="footer__socs">
+					<a class="footer__soc" href="https://twitter.com/crypto2cloud" target="_blank"
+					   rel="noreferrer nofollow">
+						<img src="img/soc/footer/soc1.png" alt="soc">
+					</a>
+					<a class="footer__soc" href="https://www.facebook.com/crypto2cloud" target="_blank"
+					   rel="noreferrer nofollow">
+						<img src="img/soc/footer/soc4.png" alt="soc">
+					</a>
+
+					<a class="footer__soc" href="https://www.instagram.com/crypto2cloud" target="_blank"
+					   rel="noreferrer nofollow">
+						<img src="img/soc/footer/soc5.png" alt="soc">
+					</a>
+
+					<a class="footer__soc" href="https://t.me/crypto2cloud" target="_blank" rel="noreferrer nofollow">
+						<img src="img/soc/footer/soc7.png" alt="soc">
+					</a>
+				</div>
+			</div>
+			<div class="footer__right">
+				<div class="option">
+					<div class="option__left" data-lang-id="managerContactPhone">+44 74 1835 2455</div>
+					<div class="option__sep"></div>
+					<img class="option__right" src="img/cont/footer/conct1.png" alt="cont"/>
+				</div>
+				<div class="option">
+					<div class="option__left" data-lang-id="managerContactMail"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c1f0d00091f2c0f1e151c18035e0f00031908420f0301">[email&#160;protected]</a></div>
+					<div class="option__sep"></div>
+					<img class="option__right" src="img/cont/footer/conct2.png" alt="cont"/>
+				</div>
+				<div class="option">
+					<div class="option__left" data-lang-id="managerContactSkype">crypto2cloud</div>
+					<div class="option__sep"></div>
+					<img class="option__right" src="img/cont/footer/conct3.png" alt="cont"/>
+				</div>
+				<div class="option">
+					<div class="option__left" data-lang-id="managerContactTelegram">crypto2cloud</div>
+					<div class="option__sep"></div>
+					<img class="option__right" src="img/cont/footer/conct4.png" alt="cont"/>
+				</div>
+				<div class="option">
+					<div class="option__left" data-lang-id="managerContactIn">crypto2cloud</div>
+					<div class="option__sep"></div>
+					<img class="option__right" src="img/cont/footer/conct5.png" alt="cont"/>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/app.min.js"></script>
+
+
+</body>
+</html>
